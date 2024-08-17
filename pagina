@@ -1,0 +1,76 @@
+@keyframes color-change {
+    0% {
+        color: rgb(36, 217, 20);
+      }
+    
+      25% {
+        color: rgb(121, 11, 239);
+      }
+
+      50% {
+        color: rgb(242, 255, 0);
+      }
+    
+      100% {
+        color: rgb(252, 19, 6);
+      }
+}
+
+
+@keyframes background-change {
+    0% {
+        background-color: rgb(36, 217, 20);
+    }
+    25% {
+        background-color: rgb(121, 11, 239);
+    }
+    50% {
+        background-color: rgb(242, 255, 0);
+    }
+    100% {
+        background-color: rgb(252, 19, 6);
+    }
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #c3d4f7; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+
+h1:hover {
+    animation: color-change 4s infinite;
+}
+
+h1 {
+    animation: background-change 5s;
+}
+
+h1{
+    animation: rotate-animation 3s;
+}
+
+h1 {
+    color: #00a800; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+img {
+    width:250px;
+    height: 250px;
+
+}
